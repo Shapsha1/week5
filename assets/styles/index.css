@@ -1,84 +1,100 @@
 body {
   display: flex;
   flex-wrap: wrap;
+
   font-size: larger;
   font-weight: bolder;
 }
 
 header {
   display: flex;
-  width: 100vw;
-  height: 80px;
   justify-content: center;
   align-items: center;
-  background-color: rgb(217, 217, 217);
   flex-grow: 0;
   flex-shrink: 0;
+
+  width: 100vw;
+  height: 80px;
+
+  background-color: rgb(217, 217, 217);
 }
 
 main {
   display: flex;
-  width: 700px;
-  height: 800px;
-  background-color: rgb(255, 247, 220);
   flex: 3 0 0;
   flex-wrap: wrap;
   justify-content: space-around;
+
+  width: 700px;
+  height: 800px;
   padding: 20px 10px 10px 10px;
   gap: 30px;
+
+  background-color: rgb(255, 247, 220);
 }
 
 article {
   display: flex;
+  justify-content: center;
+
   width: 90%;
   height: 50%;
-  justify-content: center;
 }
 .section_big {
   display: flex;
-  width: 95%;
-  height: 20%;
-  background-color: rgb(253, 230, 171);
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+
+  width: 95%;
+  height: 20%;
+
+  background-color: rgb(253, 230, 171);
 }
 
 .section_small {
   display: flex;
-  width: 47%;
-  height: 20%;
-  background-color: rgb(253, 230, 171);
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+
+  width: 47%;
+  height: 20%;
+
+  background-color: rgb(253, 230, 171);
 }
 
 aside {
   display: flex;
-  width: 200px;
-  background-color: rgb(214, 233, 192);
   flex: 1 0 0;
   justify-content: center;
+
   padding: 20px;
+  width: 200px;
+
+  background-color: rgb(214, 233, 192);
 }
 
 footer {
   display: flex;
-  width: 100vw;
-  height: 150px;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(217, 217, 217);
   flex-grow: 0;
   flex-shrink: 0;
+
+  width: 100vw;
+  height: 150px;
+
+  background-color: rgb(217, 217, 217);
 }
 
 .footer_section {
   display: flex;
-  background-color: rgb(249, 249, 249);
-  height: 70%;
-  width: 20%;
   justify-content: center;
   align-items: center;
+
+  height: 70%;
+  width: 20%;
+
+  background-color: rgb(249, 249, 249);
 }
